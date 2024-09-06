@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .container-1{
+            background-size: cover;
+           background-image: url(https://cdn.magicdecor.in/com/2024/06/28143944/Mighty-Avengers-Wallpaper-Mural.jpg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:650px;
+            flex-direction: column;
+          
+        }
+        .container-1 .navbar{
+         
+            display:flex;
+            justify-content: space-between;
+            width:100%;
+            top:0;
+            position: fixed;
+            padding-left:40px;
+            padding-right:40px;
+        }
+        img{
+            margin-left:40px;
+            margin-top:5px;
+        }
+        ul{
+            margin-right:40px;
+           
+        }
+        .body-content{
+          
+        }
+         .container-1 .navbar img{
+            height:50px;
+            width:120px;
+         }
+         .container-1 .navbar .nav-pages{
+            display:flex;
+            width:500px;
+            justify-content: space-evenly;
+         }
+         .container-1 .navbar .nav-pages li{
+            color:white;
+            font-size: x-large;
+            font-family: cursive;
+         }
+         .container-1 .navbar .nav-pages a{
+            text-decoration: none;
+            color:white;
+         }
+         .container-1 .body-content h1,p{
+            color:white;
+            font-size: x-large;
+            font-family: cursive;
+         }
+         .container-1 .navbar .nav-pages li:hover{
+            color:red;
+            text-decoration:underline;
+            transform: scale(1.5,1.5);
+         }
+         .container-1 .navbar .nav-pages li a:hover{
+            color:red;
+         }
+       .container-1 .body-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       }
+       .container-1 .body-content button{
+        height:50px;
+        background-color: red;
+        color:white;
+        border:1px solid black;
+        border-radius: 5px;
+        width:120px;
+       }
+       .container-1 .body-content button:hover{
+        color:red;
+        background-color: transparent;
+        border:1px solid red;
+       }
+    </style>
+</head>
+<body>
+    <div class="container-1">
+        <div class="navbar">
+            <img src="https://w7.pngwing.com/pngs/132/199/png-transparent-marvel-avengers-logo-ultron-captain-america-baron-zemo-iron-man-marvel-comics-avengers-marvel-avengers-assemble-text-logo.png" alt="">
+            <ul type="none" class="nav-pages">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Team</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <div class="body-content">
+            <h1>Always Protect the Earth.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <button>Get Started</button>
+        </div>
+    </div>
+</body>
+</html>
