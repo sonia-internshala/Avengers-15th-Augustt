@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .container-4{
+            display: grid;
+            gap:10px;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: 100px 400px;
+        }
+        .box1{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color:red;
+            font-family: cursive;
+            font-size: xx-large;
+        }
+
+        .box{
+            
+        }
+        .container-4 .box2 img{
+            height:100%;
+            width:100%;
+            background-size:cover;
+        }
+        .container-4 .box3 input{
+            height:50px;
+            width:400px;
+            background-color: transparent;
+            border:1px solid white;
+            border-radius: 7px;
+        }
+        .container-4 .box3{
+            display: flex;
+           
+            justify-content: center;
+            flex-direction: column;
+            padding-left:20%;
+            padding-right:20%;
+        }
+        .container-4 .box3  button{
+            background-color: red;
+            color:white;
+            height:50px;
+            width:120px;
+            border: 1px solid black;
+            border-radius: 7px;
+            width:400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-4">
+        <div class="box box1">Contact us</div>
+        <div class="box box2">
+            <img src="https://m.media-amazon.com/images/I/71QcIKHlf4L._AC_UF1000,1000_QL80_.jpg" alt="">
+        </div>
+        <div class="box box3">
+                <input type="text" placeholder="name">
+                <br>
+                <input type="email" placeholder="email">
+                <br>
+                <textarea name="" id="" rows="10" cols="10"></textarea>
+                <br>
+                <button>Send</button>
+        </div>
+    </div>
+</body>
+</html>
