@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .container-2{
+            display:grid;
+            gap:10px;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: 100px 550px;
+        }
+        .box1{
+            display: grid;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            justify-items: center;
+            align-items: center;
+        }
+        .box2{
+         padding-left:30px;
+        }
+        .box3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:white;
+            flex-direction: column;
+        }
+        .container-2 .box3 h1,p{
+            color:black;
+            font-weight: 50;
+            font-family: cursive;
+        }
+        div{
+            color:red;
+            font-size: xx-large;
+            font-family: cursive;
+        }
+        .container-2 .box2 img{
+            height:100%;
+            width:100%;
+            background-size: cover;
+        }
+        .container-2 .box3 button{
+            background-color: red;
+            color:white;
+            height:50px;
+            width:120px;
+            border: 1px solid black;
+            border-radius: 7px;;
+        }
+        .container-2 .box3 button:hover{
+            background-color: transparent;
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-2">
+        <div class="box box1">About Us</div>
+        <div class="box box2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmhSZ0KpktivVJGdvQfGZyQmcAYovJWduJGQ&s" alt="">
+        </div>
+        <div class="box box3">
+            <h1>Why choose us?</h1>
+            <p>Lorem ipsum dolor sitates eligendi nulla doloribus?Sed nopiente aborum consequatur eius adipisci molestiae, recusandae omnis <br>ullam magni! Rerum, enim.</p>
+            <button>Read More</button>
+        </div>
+    </div>
+</body>
+</html>
